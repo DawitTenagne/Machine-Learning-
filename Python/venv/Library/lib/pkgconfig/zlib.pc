@@ -1,0 +1,13 @@
+prefix=C:/devani/Data Science,ML,DL,NLP/Python2/venv/Library
+exec_prefix=C:/devani/Data Science,ML,DL,NLP/Python2/venv/Library
+libdir=C:/devani/Data Science,ML,DL,NLP/Python2/venv/Library/lib
+sharedlibdir=C:/devani/Data Science,ML,DL,NLP/Python2/venv/Library/lib
+includedir=C:/devani/Data Science,ML,DL,NLP/Python2/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
